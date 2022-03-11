@@ -135,6 +135,7 @@ const createPost = (post) => {
 };
 
 const showPosts = (posts) => {
+    document.getElementById("FAQ-section").style = "display: block";
     const productsContainer = document.getElementById( "posts" );
     productsContainer.innerHTML = "";
 
